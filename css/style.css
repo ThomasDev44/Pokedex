@@ -1,0 +1,45 @@
+html{
+    background: url(../img/image.gif) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+.rectangle{
+    background-image: url(../img/img_pokedex.png);
+    background-repeat: no-repeat;
+    position: absolute;
+    background-position: center;
+    background-size: cover;
+}
+
+#precedent{
+    margin-top: 80%;
+    margin-left: 375px;
+    width: 80px;
+    height: 33px
+}
+
+#suivant{
+    float: right;
+    margin-top: 80%;
+    margin-right: 50px;
+    width: 80px;
+    height: 33px
+}
+
+#pokemon{
+    margin-top: 15%;
+}
+
+.rectangle{
+    min-width: 600px;
+    min-height: 600px;
+    margin-left: 350px
+}
+#affichage{
+    position: absolute;
+    margin-left: 100px;
+    margin-top: 180px;
+    width: 200px;
+}
